@@ -1,0 +1,57 @@
+body {
+    background-color: #fceecf; /* Warm, soft background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #d3756b; /* A color Flora might like */
+    font-size: 36px;
+}
+
+#game-container {
+    position: relative;
+    max-width: 400px;
+    margin: auto;
+    border: 2px solid #d3a588;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+#start-btn {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #f5c6a5;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#emoji {
+    font-size: 60px; /* Easier to tap */
+    position: absolute;
+    display: none;
+}
+
+#score-display {
+    color: #d3756b;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+    #start-btn {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+    #emoji {
+        font-size: 50px;
+    }
+}
